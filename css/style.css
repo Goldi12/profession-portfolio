@@ -1,0 +1,192 @@
+body {
+  text-align: center;
+  font-family: 'Poppins', san-serif;
+}
+
+/* TITLE SECTION  */
+
+#title {
+  background-color: #998CEB;
+  color: #B91646;
+}
+.Download-Buttons {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  transform: rotate(-5deg);
+  position: absolute;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+
+}
+
+.small-headline {
+  color: white;
+
+}
+
+/* NAVIGATION BAR */
+/* 0 for top 0 for left and right 0 for 4.5 for button */
+.navbar {
+  padding: 0 0 2rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+
+/* FEATURES */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+/* Big- headline */
+#Big-headline {
+  font-weight: 700;
+  padding: 7% 0 7% 0;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* sociel-icon */
+.icon {
+  color: #B983FF;
+  padding: 2% 0 5% 0;
+}
+
+.icon:hover {
+  color: #998CEB;
+}
+
+.text-rank {
+  padding: 0 2% 0 2%;
+}
+
+.control {
+  background-color: #fafafa;
+}
+
+.h1-number {
+  color: #B983FF;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+/* TESTIMONIALS SECTION */
+#testimonials {
+  background-color: #B983FF;
+  color: #B91646;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.testimonials-image {
+  width: 150px;
+  border-radius: 100%;
+  border-style: groove;
+  border-color: white;
+  border-width: 10px;
+}
+
+.p-testimonials {
+  color: white;
+  padding: 2% 0 1% 0;
+}
+
+#press {
+  padding-bottom: 3%;
+  background-color: #B983FF;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* PRICING SECTION */
+#pricing {
+  padding: 100px;
+}
+
+.webicon {
+  width: 150px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+  background-color: #FAFAFA;
+}
+
+.card-color {
+  background-color: #B983FF;
+}
+
+/* galary-section */
+.galary-pic {
+  width: 200px;
+}
+
+/* RESPOSIVE WEBSITES */
+@media(max-width: 975px) {
+  .title-image {
+    position: static;
+  }
+
+  .text-rank {
+    padding: 5%;
+  }
+}
+
+#cta {
+  background-color: #B983FF;
+  padding: 7% 15%;
+  color: white;
+}
+
+/* footer sociel icon */
+.fab {
+  color: #B983FF;
+}
+
+.fab:hover {
+  color: black;
+}
+.fa-hire-a-helper{
+  color: #B91646;
+}
